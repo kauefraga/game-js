@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  text-align: center;
+  background-color: #aaa;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+#yellow {
+  color: yellow;
+}
+
+#green {
+  color: green;
+}
+
+#canvas {
+  background-color: #121212;
+  width: 500px;
+  height: 500px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+}
