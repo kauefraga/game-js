@@ -1,7 +1,6 @@
-import Screen from './game/screen.js'
+import Screen, { screenSize } from './game/screen.js'
 import Player from './game/player.js'
 import Enemie from './game/enemie.js'
-import { screenSize } from './game/screen.js'
 
 const canvas = document.querySelector('canvas') // * canvas element
 const context = canvas.getContext('2d')
